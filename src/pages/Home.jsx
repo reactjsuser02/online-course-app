@@ -48,7 +48,7 @@ function Home() {
     })
 
     function onAccordionClick(event) {
-        event.target.id
+        // event.target.id
         if(openAccordion['accordion' + event.target.id]) {
             const newObj = {
                 accordion1: false,
